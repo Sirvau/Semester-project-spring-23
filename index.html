@@ -9,50 +9,97 @@
       name="description"
       content="Welcome to Community Science Museum! Discover the wonders of science and technology through exciting exhibits and events. With something new to discover every day, there's always something to explore at our museum. Come visit us today!"
     />
+    <script
+      src="https://kit.fontawesome.com/81a562339c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header></header>
+    <header class="flexcontainer header">
+      <div class="top_section">
+        <div>
+          <a href="index.html"><img src="../images/logo_museum.png" /></a>
+        </div>
+        <div>
+          <h1>Community Science Museum</h1>
+        </div>
+        <div>
+          <input type="search" name="seachbar" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <nav>
+        <input type="checkbox" id="menu_checkbox" />
+        <label for="menu_checkbox"><i class="fas fa-bars"></i></label>
+        <nav class="navigation">
+          <ul>
+            <li><a href="../html/about.html">About</a></li>
+            <li><a href="../html/gallery.html">Exhibition gallery</a></li>
+            <li><a href="../html/events.html">Events</a></li>
+            <li><a href="../html/visit_us.html">Visit us</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
     <main>
       <section class="flexcontainer event">
-        <div>Image Spaceship event</div>
+        <figure>
+          <img
+            src="../images/index_space_trip.jpg"
+            alt="The image shows a composition of elements, such as a starship,
+          planets and a controll tower. Pink, blue and white light are
+          dominant in the image."
+          />
+        </figure>
         <div>
           <h1>Space Trip event</h1>
           <p>
             Join the Space Trip event at the science museum and take a journey
             to the distant stars!
           </p>
-          <a class="button">Button view events</a>
+          <a href="../html/events.html" class="button">View events</a>
         </div>
       </section>
       <div class="horisontal_line"></div>
       <h2>Exhibitions</h2>
       <section class="flexcontainer exhibitions">
         <figure>
-          <img />
+          <img
+            src="../images/index_exhibitions_cosmology.jpg"
+            alt=" Image of a person in a yellow owerall and white driver helmet. The  person is sitting in a star ship simulator. "
+          />
           <p>Come and experience the wonders of space in the Cosmology room.</p>
         </figure>
         <figure>
-          <img />
+          <img
+            src="../images/index_exhibitions_evolution.jpg"
+            alt="An image of a small dinosaur scelton standing on a display. Dark blue and yellow ligt is dominating colours in the image."
+          />
           <p>
             Explore the incredible history of the animal kingdom with our
             Evolution Exhibition!
           </p>
         </figure>
         <figure>
-          <img />
+          <img
+            src="../images/index_exhibitions_robotics_and_ai.jpg"
+            alt="An image of an adult and a child programming a robot on a tablet"
+          />
           <p>
             Discover the world of robotics and AI with our exciting Robotics and
             AI Exhibition!
           </p>
         </figure>
-        <a class="button">Button view gallery</a>
+        <a href="../html/gallery.html" class="button">View gallery</a>
       </section>
       <img />
       <section class="flexcontainer reviews">
         <aside>
           <p>“It was fun and exiting to make robots that actually worked!”</p>
-          <p>“Watching dinosaur sceletons was the best!”</p>
           <p>Molly, 14 years</p>
+        </aside>
+        <aside>
+          <p>“Watching dinosaur sceletons was the best!”</p>
           <p>Luca, 8 years</p>
         </aside>
       </section>
