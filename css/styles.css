@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Lato";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 800;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2)
     format("woff2");
@@ -10,7 +10,9 @@
     U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-body {
+body,
+nav,
+nav a {
   background-color: rgba(0, 3, 24, 1);
   color: rgba(250, 228, 209, 1);
   font-family: "Lato";

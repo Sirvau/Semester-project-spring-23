@@ -14,8 +14,10 @@
       src="https://kit.fontawesome.com/81a562339c.js"
       crossorigin="anonymous"
     ></script>
-    <link href="../css/navigation.css" rel="stylesheet" />
+
     <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/navigation.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
   </head>
   <body>
     <header class="flexcontainer header">
@@ -33,22 +35,20 @@
             >Community Science Museum</a
           >
         </div>
-        <div>
+        <div class="searchbar">
           <input type="search" name="seachbar" />
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
-      <nav>
-        <input type="checkbox" id="menu_checkbox" />
-        <label for="menu_checkbox"><i class="fas fa-bars"></i></label>
-        <nav class="navigation">
-          <ul>
-            <li><a href="../html/about.html">About</a></li>
-            <li><a href="../html/gallery.html">Exhibition gallery</a></li>
-            <li><a href="../html/events.html">Events</a></li>
-            <li><a href="../html/visit_us.html">Visit us</a></li>
-          </ul>
-        </nav>
+      <input type="checkbox" id="menu_checkbox" />
+      <label for="menu_checkbox"><i class="fas fa-bars"></i></label>
+      <nav class="navigation">
+        <ul>
+          <li><a href="../html/about.html">About</a></li>
+          <li><a href="../html/gallery.html">Exhibition gallery</a></li>
+          <li><a href="../html/events.html">Events</a></li>
+          <li><a href="../html/visit_us.html">Visit us</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -106,14 +106,24 @@
       </div>
       <div class="footer_icons">
         <a href="https://www.instagram.com/"
-          ><img src="../icons/icon_instagram.png" alt="Instagram icon"
+          ><img
+            class="instagram_icon"
+            src="../icons/icon_instagram.png"
+            alt="Instagram icon"
         /></a>
         <a href="https://www.facebook.com/"
-          ><img src="../icons/icon_facebook.png" alt="Facebook icon"
+          ><img
+            class="facebook_icon"
+            src="../icons/icon_facebook.png"
+            alt="Facebook icon"
         /></a>
         <a href="https://twitter.com/"
-          ><img src="../icons/icon_twitter.png" alt="Twitter icon"
+          ><img
+            class="twitter_icon"
+            src="../icons/icon_twitter.png"
+            alt="Twitter icon"
         /></a>
+        <div class="copyright">&copy Copyright</div>
       </div>
     </footer>
   </body>
