@@ -66,6 +66,10 @@ nav a {
   margin: 10px auto auto 25px;
 }
 
+label {
+  display: none;
+}
+
 .bottom_section {
   display: flex;
   background: rgb(0, 3, 24);
