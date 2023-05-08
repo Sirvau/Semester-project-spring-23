@@ -52,6 +52,7 @@ nav a {
 #search {
   background-color: rgba(0, 3, 24, 1);
   border: 1px solid rgba(250, 228, 209, 1);
+  color: rgba(250, 228, 209, 1);
   border-radius: 5px;
   font-size: 12px;
   font-family: "Lato", "open-sans", "Verdana";
