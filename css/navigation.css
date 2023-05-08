@@ -30,10 +30,6 @@ header {
 .top_section,
 nav {
   display: flex;
-}
-
-.top_section {
-  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -50,6 +46,7 @@ nav a {
   letter-spacing: 1px;
   text-decoration: none;
   margin: 10px;
+  color: rgba(250, 228, 209, 1);
 }
 
 #search {
@@ -57,16 +54,10 @@ nav a {
   border: 1px solid rgba(250, 228, 209, 1);
   border-radius: 5px;
   font-size: 12px;
-  font-family: "lato";
+  font-family: "Lato", "open-sans", "Verdana";
   letter-spacing: 0.5px;
-  max-width: 130px;
-  min-height: 22px;
-}
-
-.museum_name,
-#search,
-.fa-bars {
-  color: rgba(250, 228, 209, 1);
+  max-width: 100px;
+  min-height: 20px;
 }
 
 .fa-bars {
@@ -74,8 +65,18 @@ nav a {
   margin: 10px auto auto 25px;
 }
 
+.bottom_section {
+  display: flex;
+  background: rgb(0, 3, 24);
+  background: radial-gradient(
+    circle,
+    rgba(0, 3, 24, 1) 69%,
+    rgba(4, 9, 55, 1) 97%
+  );
+}
+
 nav {
-  margin: 10px auto;
+  margin: 35px auto;
   padding: 10px;
   position: absolute;
   background: rgb(0, 3, 24);
@@ -116,6 +117,15 @@ nav {
   display: block;
 }
 
+@media screen and (min-width: 440px) {
+  .museum_name {
+    font-size: 23px;
+  }
+  .museum_logo {
+    max-width: 70px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .museum_logo {
     max-width: 80px;
@@ -125,47 +135,35 @@ nav {
   }
 
   .fa-bars {
-    margin: 10px auto auto 38px;
+    margin-left: 5px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .top_section {
-    justify-content: flex-start;
-  }
-
-  .museum_logo {
-    max-width: 100px;
-  }
+@media screen and (min-width: 540px) {
   .museum_name {
     font-size: 28px;
   }
-  .searchbar {
-    display: inline-block;
-    margin-left: 70px;
-  }
+}
 
-  .fa-magnifying-glass {
-    margin-left: 5px;
-  }
-
+@media screen and (min-width: 600px) {
   header,
   nav {
     position: static;
   }
 
-  nav {
-    background: none;
+  .top_section {
+    justify-content: center;
   }
 
   .bottom_section {
-    display: flex;
-    background: rgb(0, 3, 24);
-    background: radial-gradient(
-      circle,
-      rgba(0, 3, 24, 1) 69%,
-      rgba(4, 9, 55, 1) 97%
-    );
+    padding: 5px;
+    margin: 5px;
+    border-top: 1px solid rgba(184, 125, 17, 1);
+  }
+
+  nav {
+    background: none;
+    margin: 10px auto;
   }
 
   nav li {
@@ -181,5 +179,91 @@ nav {
 
   .fa-bars {
     display: none;
+  }
+
+  .museum_name {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top_section {
+    justify-content: space-evenly;
+  }
+
+  .museum_logo {
+    max-width: 100px;
+  }
+  .museum_name {
+    font-size: 35px;
+  }
+  .searchbar {
+    display: inline-block;
+  }
+
+  .fa-magnifying-glass {
+    margin-left: 5px;
+  }
+
+  nav a {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  #search {
+    max-width: 125px;
+    min-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .museum_logo {
+    max-width: 120px;
+  }
+  .museum_name {
+    font-size: 40px;
+  }
+
+  #search {
+    max-width: 140px;
+    min-height: 24px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .museum_logo {
+    max-width: 130px;
+  }
+  .museum_name {
+    font-size: 45px;
+  }
+
+  #search {
+    max-width: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .museum_logo {
+    max-width: 140px;
+  }
+  .museum_name {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .museum_name {
+    font-size: 55px;
+  }
+  nav a {
+    font-size: 25px;
   }
 }
