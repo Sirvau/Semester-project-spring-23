@@ -1,4 +1,114 @@
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.event,
+h1,
+.highlighted_text,
+aside,
+.button {
+  text-align: center;
+}
+
 .space_trip_image,
 .exhibition_images {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.highlighted_text,
+.exhibition_text,
+aside,
+.button {
+  line-height: 30px;
+}
+
+.highlighted_text {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+span {
+  font-weight: 700;
+}
+
+/* Buttons --------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+
+.button {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 15px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.events {
+  background-color: rgba(208, 57, 150, 1);
+}
+
+.gallery {
+  background-color: rgba(250, 228, 209, 1);
+}
+
+.events:hover {
+  background-color: rgba(249, 130, 203, 1);
+}
+
+.gallery:hover {
+  background-color: rgba(245, 205, 169, 1);
+}
+
+/* Exhibitions ----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+.horisontal_line {
+  height: 0.7px;
   max-width: 100%;
+}
+
+h2 {
+  margin: 20px auto 0px 38px;
+}
+
+.exhibition_text,
+.button {
+  color: rgba(0, 3, 24, 1);
+}
+
+.exhibitions,
+.horisontal_line {
+  background-color: rgba(184, 125, 17, 1);
+}
+
+.exhibitions {
+  margin: 20px auto;
+}
+
+/* Reviews ----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+
+.bottom_image {
+  height: 250px;
+}
+
+aside {
+  margin-top: 50px;
+  font-family: "Ubuntu";
+}
+
+.review_text {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.review_name_age {
+  font-size: 14px;
 }

@@ -42,9 +42,8 @@
       </div>
       <div class="bottom_section">
         <input type="checkbox" id="menu_checkbox" />
-        <label for="menu_checkbox"
-          ><i class="fas fa-bars"></i>Hamburgermenu</label
-        >
+        <label for="menu_checkbox">Hamburgermenu</label
+        ><i class="fas fa-bars"></i>
         <nav>
           <ul>
             <li><a href="../html/about.html">About</a></li>
@@ -65,16 +64,16 @@
           dominant in the image."
         />
         <div>
-          <h2>Space Trip event</h2>
-          <p>
-            Join the Space Trip event at the science museum and take a journey
-            to the distant stars!
+          <h1>Space Trip event</h1>
+          <p class="highlighted_text">
+            Join the Space Trip event at the Science Museum and take a journey
+            to the <span>distant stars!</span>
           </p>
-          <a href="../html/events.html" class="button">View events</a>
+          <a href="../html/events.html" class="button events">View events</a>
         </div>
       </section>
       <div class="horisontal_line"></div>
-      <h3>Exhibitions</h3>
+      <h2>Exhibitions</h2>
       <section class="flexcontainer exhibitions">
         <figure>
           <img
@@ -82,7 +81,10 @@
             src="../images/index_exhibitions_cosmology.jpg"
             alt=" Image of a person in a yellow owerall and white driver helmet. The  person is sitting in a star ship simulator. "
           />
-          <p>Come and experience the wonders of space in the Cosmology room.</p>
+          <p class="exhibition_text">
+            Come and experience the <span>wonders of space</span> in the
+            Cosmology room.
+          </p>
         </figure>
         <figure>
           <img
@@ -90,9 +92,9 @@
             src="../images/index_exhibitions_evolution.jpg"
             alt="An image of a small dinosaur scelton standing on a display. Dark blue and yellow ligt is dominating colours in the image."
           />
-          <p>
-            Explore the incredible history of the animal kingdom with our
-            Evolution Exhibition!
+          <p class="exhibition_text">
+            Explore the incredible history of the
+            <span>animal kingdom</span> with our Evolution Exhibition!
           </p>
         </figure>
         <figure>
@@ -101,21 +103,24 @@
             src="../images/index_exhibitions_robotics_and_ai.jpg"
             alt="An image of an adult and a child programming a robot on a tablet"
           />
-          <p>
-            Discover the world of robotics and AI with our exciting Robotics and
-            AI Exhibition!
+          <p class="exhibition_text">
+            Discover the world of <span>robotics and AI</span> with our exciting
+            Robotics and AI Exhibition!
           </p>
         </figure>
-        <a href="../html/gallery.html" class="button">View gallery</a>
+        <a href="../html/gallery.html" class="button gallery">View gallery</a>
       </section>
+      <img class="bottom_image" src="../images/index_bottom_image.jpg" />
       <section class="flexcontainer reviews">
         <aside>
-          <p>“It was fun and exiting to make robots that actually worked!”</p>
-          <p>Molly, 14 years</p>
+          <p class="review_text">
+            “It was fun and exiting to make robots that actually worked!”
+          </p>
+          <p class="review_name_age">Molly, 14 years</p>
         </aside>
         <aside>
-          <p>“Watching dinosaur sceletons was the best!”</p>
-          <p>Luca, 8 years</p>
+          <p class="review_text">“Watching dinosaur sceletons was the best!”</p>
+          <p class="review_name_age">Luca, 8 years</p>
         </aside>
       </section>
     </main>
