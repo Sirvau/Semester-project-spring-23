@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+img {
+  max-width: 100%;
+}
+
 .event,
 h1,
 .highlighted_text,
@@ -11,9 +15,8 @@ aside,
   text-align: center;
 }
 
-.space_trip_image,
-.exhibition_images {
-  margin-top: 10px;
+.space_trip_image {
+  margin-top: 20px;
 }
 
 h1 {
@@ -58,6 +61,8 @@ span {
 
 .gallery {
   background-color: rgba(250, 228, 209, 1);
+  margin-left: 115px;
+  margin-top: 1px;
 }
 
 .events:hover {
@@ -75,8 +80,17 @@ span {
   max-width: 100%;
 }
 
+.exhibitions,
+.horisontal_line {
+  background-color: rgba(184, 125, 17, 1);
+}
+
 h2 {
-  margin: 20px auto 0px 38px;
+  margin: 40px auto 20px 30px;
+}
+
+.exhibition_images {
+  margin-top: 0px;
 }
 
 .exhibition_text,
@@ -84,13 +98,8 @@ h2 {
   color: rgba(0, 3, 24, 1);
 }
 
-.exhibitions,
-.horisontal_line {
-  background-color: rgba(184, 125, 17, 1);
-}
-
-.exhibitions {
-  margin: 20px auto;
+.exhibition_text {
+  margin: 10px 30px 50px;
 }
 
 /* Reviews ----------------------------------------------------------------------------------------------------
@@ -98,11 +107,14 @@ h2 {
 
 .bottom_image {
   height: 250px;
+  margin-top: 1px;
+  display: block;
 }
 
 aside {
-  margin-top: 50px;
+  margin-top: 80px;
   font-family: "Ubuntu";
+  border-top: 0.5px solid rgba(184, 125, 17, 1);
 }
 
 .review_text {

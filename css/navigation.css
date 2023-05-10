@@ -37,15 +37,6 @@ nav a {
   min-height: 20px;
 }
 
-.fa-bars {
-  font-size: 16px;
-  margin: 10px auto auto 25px;
-}
-
-label {
-  display: none;
-}
-
 .bottom_section {
   display: flex;
   background: rgb(0, 3, 24);
@@ -54,6 +45,10 @@ label {
     rgba(0, 3, 24, 1) 69%,
     rgba(4, 9, 55, 1) 97%
   );
+}
+
+.fa-bars {
+  margin-left: 2px;
 }
 
 nav {
