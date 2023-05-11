@@ -3,43 +3,79 @@
   flex-direction: column;
 }
 
-img {
-  max-width: 100%;
+/* Images ----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+.space_trip_image,
+.exhibition_images {
+  margin: auto;
 }
 
-.event,
-h1,
-.highlighted_text,
-aside,
-.button {
-  text-align: center;
+.bottom_image {
+  margin: 1px auto;
+  height: 250px;
 }
 
-.space_trip_image {
-  margin-top: 20px;
-}
+/* Text--------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
 
 h1 {
   font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
-.highlighted_text,
-.exhibition_text,
-aside,
-.button {
-  line-height: 30px;
+h2,
+.highlighted_text {
+  font-size: 18px;
+}
+
+.review_name_age {
+  font-size: 14px;
+}
+
+span {
+  font-weight: 700;
+}
+
+h2 {
+  margin: 40px auto 20px 10px;
 }
 
 .highlighted_text {
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 18px;
 }
 
-span {
-  font-weight: 700;
+aside {
+  margin-top: 80px;
+  font-family: "Ubuntu";
+  border-top: 0.5px solid rgba(184, 125, 17, 1);
+}
+
+.review_text {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.review_name_age {
+  font-size: 14px;
+}
+
+h1,
+.highlighted_text,
+.exhibition_text,
+.review_text,
+.review_name_age {
+  text-align: center;
+  line-height: 30px;
+}
+
+.exhibition_text {
+  margin: 10px 20px 40px;
+  text-align: left;
+}
+
+.exhibition_text,
+.button {
+  color: rgba(0, 3, 24, 1);
 }
 
 /* Buttons --------------------------------------------------------------------------------
@@ -47,7 +83,7 @@ span {
 
 .button {
   display: inline-block;
-  margin: 30px auto;
+  margin: 20px auto 50px 120px;
   padding: 15px 20px;
   border-radius: 15px;
   text-decoration: none;
@@ -61,8 +97,6 @@ span {
 
 .gallery {
   background-color: rgba(250, 228, 209, 1);
-  margin-left: 115px;
-  margin-top: 1px;
 }
 
 .events:hover {
@@ -75,79 +109,95 @@ span {
 
 /* Exhibitions ----------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
-.horisontal_line {
-  height: 0.7px;
-  max-width: 100%;
-}
 
 .exhibitions,
 .horisontal_line {
   background-color: rgba(184, 125, 17, 1);
 }
 
-h2 {
-  margin: 40px auto 20px 30px;
-}
-
-.exhibition_images {
-  margin-top: 0px;
-}
-
-.exhibition_text,
-.button {
-  color: rgba(0, 3, 24, 1);
-}
-
-.exhibition_text {
-  margin: 10px 30px 50px;
-}
-
-/* Reviews ----------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------*/
-
-.bottom_image {
-  height: 250px;
-  margin-top: 1px;
-  display: block;
-}
-
-aside {
-  margin-top: 80px;
-  font-family: "Ubuntu";
-  border-top: 0.5px solid rgba(184, 125, 17, 1);
-}
-
-.review_text {
-  font-style: italic;
-  letter-spacing: 1px;
-}
-.review_name_age {
-  font-size: 14px;
+figure {
+  margin: auto;
 }
 
 /* Media quiries----------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 480px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 600px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 768px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 880px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 1024px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 1280px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 1440px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }
 
 @media screen and (min-width: 1680px) {
+  /* Images */
+
+  /* Text */
+
+  /* Buttons */
+
+  /* Exhibitions */
 }

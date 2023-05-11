@@ -41,6 +41,17 @@ nav a {
   font-size: 20px;
 }
 
+img,
+.horisontal_line {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.horisontal_line {
+  height: 0.7px;
+  margin: auto;
+}
+
 /* Slideshows -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .slider {
