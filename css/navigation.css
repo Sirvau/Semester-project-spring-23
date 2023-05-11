@@ -177,6 +177,10 @@ nav {
     display: inline-block;
   }
 
+  #label_searchbar {
+    display: none;
+  }
+
   .fa-magnifying-glass {
     margin-left: 5px;
   }
