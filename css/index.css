@@ -40,8 +40,8 @@ h2 {
 }
 
 .highlighted_text {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 aside {
@@ -66,14 +66,21 @@ h1,
 .review_name_age {
   text-align: center;
   line-height: 30px;
-}
-
-.exhibition_text {
-  margin: 10px 20px 40px;
-  text-align: left;
+  letter-spacing: 0.3px;
 }
 
 .exhibition_text,
+h3 {
+  margin: 5px 5px 20px 15px;
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.exhibition_text,
+h3,
 .button {
   color: rgba(0, 3, 24, 1);
 }
@@ -83,7 +90,7 @@ h1,
 
 .button {
   display: inline-block;
-  margin: 20px auto 50px 120px;
+  margin: 20px auto 50px 112px;
   padding: 15px 20px;
   border-radius: 15px;
   text-decoration: none;
@@ -124,20 +131,119 @@ figure {
 
 @media screen and (min-width: 480px) {
   /* Images */
+  .exhibitions {
+    text-align: center;
+  }
 
   /* Text */
 
+  h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .highlighted_text {
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  h2 {
+    margin-left: 15px;
+  }
+
+  .exhibition_text,
+  .review_text,
+  .button {
+    font-size: 18px;
+  }
+
+  .review_name_age {
+    font-size: 16px;
+  }
+
+  .exhibition_text {
+    margin: 20px 50px 60px;
+  }
+
   /* Buttons */
 
-  /* Exhibitions */
+  .events {
+    margin-left: 160px;
+  }
+
+  .gallery {
+    margin: auto auto 40px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  /* Images */
+  .exhibition_images {
+    min-height: 320px;
+  }
+
+  /* Text */
+  h2,
+  .highlighted_text {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  h2 {
+    margin-left: 45px;
+  }
+
+  .exhibition_text,
+  .review_text,
+  .button {
+    font-size: 20px;
+  }
+
+  .exhibition_text {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  /* Buttons */
+  .events {
+    margin-left: 185px;
+  }
+
+  .exhibitions {
+    max-width: 540px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 600px) {
   /* Images */
 
   /* Text */
+  h1 {
+    font-size: 32px;
+  }
 
+  h2,
+  .highlighted_text {
+    font-size: 22px;
+  }
+
+  h2 {
+    margin-left: 25px;
+  }
+
+  .highlighted_text,
+  .exhibition_text {
+    line-height: 40px;
+  }
   /* Buttons */
+  .events {
+    margin-left: 220px;
+  }
 
   /* Exhibitions */
 }
