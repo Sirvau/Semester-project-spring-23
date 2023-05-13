@@ -32,19 +32,24 @@ nav,
 nav a {
   background-color: rgba(0, 3, 24, 1);
   color: rgba(250, 228, 209, 1);
-  font-family: "Lato";
+  font-family: "Lato", "Open-Sans", "Verdana";
   font-size: 16px;
 }
 
-.museum_name {
-  font-family: "Ubuntu";
-  font-size: 20px;
+.museum_name,
+h1,
+nav a {
+  font-family: "Ubuntu", "Lato", "Open-Sans";
 }
 
 img,
 .horisontal_line {
   max-width: 100%;
-  overflow: hidden;
+  display: block;
+}
+
+img {
+  display: inline-block;
 }
 
 .horisontal_line {

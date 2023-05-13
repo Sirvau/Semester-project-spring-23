@@ -1,88 +1,37 @@
-.flexcontainer {
-  display: flex;
-  flex-direction: column;
+.exhibition_image_and_text,
+.button {
+  background-color: rgba(184, 125, 17, 1);
+  color: rgba(0, 3, 24, 1);
+}
+
+.maincontainer_event {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.horisontal_line {
+  margin-top: 40px;
 }
 
 /* Images ----------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
-.space_trip_image,
-.exhibition_images {
-  margin: auto;
-}
-
-.bottom_image {
-  margin: 1px auto;
-  height: 250px;
-}
 
 /* Text--------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------*/
+
+.event_text_total {
+  text-align: center;
+  margin: 20px 10px auto 10px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
 
 h1 {
   font-size: 25px;
 }
 
-h2,
-.highlighted_text {
+.event_text {
   font-size: 18px;
-}
-
-.review_name_age {
-  font-size: 14px;
-}
-
-span {
-  font-weight: 700;
-}
-
-h2 {
-  margin: 40px auto 20px 10px;
-}
-
-.highlighted_text {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-aside {
-  margin-top: 80px;
-  font-family: "Ubuntu";
-  border-top: 0.5px solid rgba(184, 125, 17, 1);
-}
-
-.review_text {
-  font-style: italic;
-  letter-spacing: 1px;
-}
-
-.review_name_age {
-  font-size: 14px;
-}
-
-h1,
-.highlighted_text,
-.exhibition_text,
-.review_text,
-.review_name_age {
-  text-align: center;
-  line-height: 30px;
-  letter-spacing: 0.3px;
-}
-
-.exhibition_text,
-h3 {
-  margin: 5px 5px 20px 15px;
-  text-align: left;
-}
-
-h3 {
-  margin-bottom: 10px;
-}
-
-.exhibition_text,
-h3,
-.button {
-  color: rgba(0, 3, 24, 1);
 }
 
 /* Buttons --------------------------------------------------------------------------------
@@ -90,12 +39,12 @@ h3,
 
 .button {
   display: inline-block;
-  margin: 20px auto 50px 112px;
-  padding: 15px 20px;
+  padding: 15px 15px;
   border-radius: 15px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 40px;
 }
 
 .events {
@@ -104,6 +53,7 @@ h3,
 
 .gallery {
   background-color: rgba(250, 228, 209, 1);
+  margin: 50px 73px;
 }
 
 .events:hover {
@@ -122,146 +72,96 @@ h3,
   background-color: rgba(184, 125, 17, 1);
 }
 
-figure {
-  margin: auto;
-}
-
 /* Media quiries----------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
 
+/* Media Queries */
+
 @media screen and (min-width: 480px) {
-  /* Images */
-  .exhibitions {
-    text-align: center;
+  .horisontal_line {
+    margin-top: 40px;
   }
-
-  /* Text */
-
-  h1 {
-    font-size: 30px;
-  }
-
-  h2,
-  .highlighted_text {
-    font-size: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
-  h2 {
-    margin-left: 15px;
-  }
-
-  .exhibition_text,
-  .review_text,
   .button {
     font-size: 18px;
-  }
-
-  .review_name_age {
-    font-size: 16px;
-  }
-
-  .exhibition_text {
-    margin: 20px 50px 60px;
-  }
-
-  /* Buttons */
-
-  .events {
-    margin-left: 160px;
-  }
-
-  .gallery {
-    margin: auto auto 40px;
   }
 }
 
 @media screen and (min-width: 540px) {
-  /* Images */
-  .exhibition_images {
-    min-height: 320px;
+  .horisontal_line {
+    margin-top: 50px;
   }
-
-  /* Text */
-  h2,
-  .highlighted_text {
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-
-  h2 {
-    margin-left: 45px;
-  }
-
-  .exhibition_text,
-  .review_text,
-  .button {
+  .event_text {
     font-size: 20px;
+    line-height: 35px;
   }
-
-  .exhibition_text {
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-
-  /* Buttons */
-  .events {
-    margin-left: 185px;
-  }
-
-  .exhibitions {
-    max-width: 540px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+  h1 {
+    font-size: 28px;
   }
 }
 
 @media screen and (min-width: 600px) {
-  /* Images */
-
-  /* Text */
-  h1 {
-    font-size: 32px;
-  }
-
-  h2,
-  .highlighted_text {
+  .event_text {
     font-size: 22px;
   }
-
-  h2 {
-    margin-left: 25px;
+  h1 {
+    font-size: 30px;
   }
-
-  .highlighted_text,
-  .exhibition_text {
-    line-height: 40px;
+  .button {
+    font-size: 22px;
+    padding: 20px 25px;
   }
-  /* Buttons */
-  .events {
-    margin-left: 220px;
-  }
-
-  /* Exhibitions */
 }
 
 @media screen and (min-width: 768px) {
-  /* Images */
+  .horisontal_line {
+    margin-top: 20px;
+  }
 
-  /* Text */
+  .maincontainer_event {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+  }
 
-  /* Buttons */
+  .event_text_total {
+    margin-top: auto;
+  }
 
-  /* Exhibitions */
+  .event_text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .button {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 880px) {
-  /* Images */
+  .horisontal_line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
+  /* Images */
+  .space_trip_image {
+    margin-left: 10px;
+    margin-right: auto;
+  }
   /* Text */
+  .event_text {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
 
   /* Buttons */
 
@@ -272,38 +172,104 @@ figure {
   /* Images */
 
   /* Text */
+  .event_text {
+    font-size: 22px;
+    line-height: 40px;
+    margin: 35px 30px;
+  }
 
+  h1 {
+    font-size: 30px;
+  }
   /* Buttons */
+  .button {
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-top: auto;
+  }
 
   /* Exhibitions */
 }
 
 @media screen and (min-width: 1280px) {
+  .horisontal_line {
+    margin-top: 30px;
+  }
+
   /* Images */
 
   /* Text */
+  .event_text {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
 
   /* Buttons */
+  .button {
+    font-size: 22px;
+    margin-top: 30px;
+    padding: 20px 25px;
+  }
 
   /* Exhibitions */
 }
 
 @media screen and (min-width: 1440px) {
+  .maincontainer_event {
+    margin-top: 50px;
+  }
+  .horisontal_line {
+    margin-top: 10px auto;
+  }
   /* Images */
 
   /* Text */
+  .event_text {
+    font-size: 26px;
+    line-height: 50px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
 
   /* Buttons */
-
-  /* Exhibitions */
 }
 
+/* Exhibitions */
+
 @media screen and (min-width: 1680px) {
+  .maincontainer_event {
+    margin-top: 100px;
+    grid-template-columns: 0.8fr 1fr;
+  }
   /* Images */
+  .space_trip_image {
+    margin-left: 40px;
+  }
 
   /* Text */
+  .event_text_total {
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
 
   /* Buttons */
+  .button {
+    margin-top: 30px;
+    padding: 5px 30px;
+  }
 
   /* Exhibitions */
 }
