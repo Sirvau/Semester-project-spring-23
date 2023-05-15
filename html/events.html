@@ -16,6 +16,7 @@
     <link href="../css/styles.css" rel="stylesheet" />
     <link href="../css/navigation.css" rel="stylesheet" />
     <link href="../css/footer.css" rel="stylesheet" />
+    <link href="../css/events.css" rel="stylesheet" />
   </head>
   <body>
     <header class="flexcontainer header">
@@ -55,31 +56,36 @@
       </div>
     </header>
     <main>
-      <h1>Upcoming Events</h1>
-      <figure class="top_image"></figure>
-      <section class="flexcontainer">
-        <img
-          src="../images/events_spacetrip.jpg"
-          alt="Image collage of a
+      <h1 class="center_aligned">Upcoming Events</h1>
+      <img class="events_top_image" src="../images/events_top_image.jpg" />
+      <section class="maincontainer spacetrip">
+        <div class="headline_and_text">
+          <h2>Space Trip</h2>
+          <p class="event_text description small">
+            Embark on an out-of-this-world adventure and explore the wonders of
+            the universe with our Space Trip event! Experience the thrill of
+            space travel firsthand with our space ship simulator.
+          </p>
+        </div>
+        <div class="image_container">
+          <img
+            class="image_event_spacetrip"
+            src="../images/events_spacetrip.jpg"
+            alt="Image collage of a
         person sitting in a spaceship simulator and a viritual view from a
         spaceship"
-        />
-        <h2>Space Trip</h2>
-        <p>
-          Embark on an out-of-this-world adventure and explore the wonders of
-          the universe with our Space Trip event! Experience the thrill of space
-          travel firsthand with our space ship simulator.
-        </p>
+          />
+        </div>
       </section>
       <div class="horisontal_line"></div>
-      <section class="flexcontainer dinosaurevent">
-        <div>
+      <section class="maincontainer dinosaurevent">
+        <div class="headline_and_text">
           <h2>Visiting the Dinosaurs</h2>
-          <p>
+          <p class="event_text small">
             Travel back in time and explore the world of the dinosaurs with our
             Visit the Dinosaurs event!
           </p>
-          <p>
+          <p class="event_text description small">
             Join us at the science museum and take a journey to the age of the
             dinosaurs with our virtual reality technology!
           </p>
@@ -91,24 +97,24 @@
         green landscape."
         />
       </section>
-      <div class="horisontal_line"></div>
-      <h2>Young Stars Club</h2>
-      <section class="flexcontainer Youngstarsclub">
-        <div class="club_description">
-          <p>
+      <section class="maincontainer youngstarsclub">
+        <div class="headline_and_text">
+          <h2>Young Stars Club</h2>
+          <p class="event_text small">
             Are you a young person between 7-15 years, looking to learn more
             about science? Come on down to our museum, there is plenty to see
             and do.
           </p>
-          <p>
+          <p class="event_text small">
             Join our Young Stars club which meets once a week on a Saturday
             between 10:00 and 13:00 where you will get to explore and experiment
             with our team of experts.
           </p>
-          <p>Come check it out!</p>
-          <p>Free enterence.</p>
+          <p class="event_text small">Come check it out!</p>
+          <p class="event_text small"><span>Free enterence</span></p>
         </div>
         <img
+          class="image_young_stars_club"
           src="../images/event_young_stars_club.jpg"
           alt="An image of two
         girls colloborating with robot programming."

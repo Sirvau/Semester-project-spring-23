@@ -1,0 +1,138 @@
+h2,
+.event_text {
+  line-height: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.description,
+.spacetrip {
+  margin-bottom: 50px;
+}
+
+.dinosaurevent {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.youngstarsclub {
+  background-color: rgba(184, 125, 17, 1);
+  color: rgba(0, 3, 24, 1);
+  padding-top: 10px;
+  padding-bottom: auto;
+  margin-top: auto;
+}
+
+.image_young_stars_club {
+  max-width: 83%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+/* Media queries----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 480px) {
+  .event_text {
+    line-height: 30px;
+  }
+
+  .image_young_stars_club {
+    max-width: 87%;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .event_text {
+    line-height: 35px;
+  }
+  .image_young_stars_club {
+    max-width: 89%;
+    padding-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: 22px;
+  }
+  .event_text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .maincontainer {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+  }
+
+  .spacetrip,
+  .youngstarsclub {
+    margin-top: 40px;
+  }
+
+  .youngstarsclub {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .event_text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  h2 {
+    margin-top: auto;
+  }
+
+  .image_young_stars_club {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .event_text {
+    line-height: 35px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .event_text {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .event_text {
+    line-height: 40px;
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1690px) {
+  .event_text {
+    line-height: 40px;
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
