@@ -29,19 +29,6 @@
   letter-spacing: 0.3px;
 }
 
-h1 {
-  font-size: 25px;
-}
-
-.event_text {
-  font-size: 18px;
-}
-
-h2,
-h3 {
-  font-size: 18px;
-}
-
 h2 {
   margin-left: 40px;
 }
@@ -125,30 +112,15 @@ h3,
 }
 
 .review_name_age {
-  font-size: 14px;
   margin-bottom: auto;
 }
 
-/* Media quiries----------------------------------------------------------------------------------------------------
+/* Media queries----------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
-
-/* Media Queries */
 
 @media screen and (min-width: 480px) {
   .horisontal_line {
     margin-top: 40px;
-  }
-  .button {
-    font-size: 18px;
-  }
-
-  .exhibition_text,
-  .review_text {
-    font-size: 18px;
-  }
-
-  .review_name_age {
-    font-size: 16px;
   }
 }
 
@@ -156,50 +128,25 @@ h3,
   .horisontal_line {
     margin-top: 50px;
   }
+
   .event_text,
   h2,
   h3,
   .exhibition_text {
-    font-size: 22px;
     line-height: 35px;
-  }
-
-  .exhibition_text,
-  .review_text {
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 28px;
   }
 
   .review_text {
     margin-top: 60px;
   }
-
-  .review_name_age {
-    font-size: 18px;
-  }
 }
 
 @media screen and (min-width: 600px) {
-  .event_text {
-    font-size: 22px;
-  }
-  h1 {
-    font-size: 30px;
-  }
-
   h2 {
-    font-size: 20px;
     margin-left: 10px;
   }
 
-  h3 {
-    font-size: 18px;
-  }
-
   .exhibition_text {
-    font-size: 16px;
     line-height: 25px;
   }
 
@@ -211,7 +158,6 @@ h3,
   }
 
   .button {
-    font-size: 18px;
     padding: 18px 20px;
   }
 
@@ -233,6 +179,10 @@ h3,
 }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    margin-top: auto;
+  }
+
   .exhibition_image_and_text {
     background-color: rgba(184, 125, 17, 1);
     color: rgba(0, 3, 24, 1);
@@ -260,7 +210,6 @@ h3,
 
   .event_text,
   h2 {
-    font-size: 20px;
     line-height: 30px;
   }
 
@@ -268,12 +217,7 @@ h3,
     margin: 10px;
   }
 
-  h1 {
-    font-size: 24px;
-    margin-top: auto;
-  }
   .button {
-    font-size: 18px;
     margin-top: 20px;
   }
 }
@@ -294,42 +238,24 @@ h3,
     margin-right: auto;
   }
   /* Text */
-  .event_text,
-  h2,
-  h3 {
-    font-size: 20px;
-  }
-
-  .exhibition_text {
-    font-size: 18px;
-  }
 
   .event_text,
   h2 {
     margin: 30px 15px;
-  }
-  h1 {
-    font-size: 28px;
   }
 
   .review_text {
     line-height: 40px;
     padding-top: 20px;
   }
-
-  /* Buttons */
-
-  /* Exhibitions */
 }
 
 @media screen and (min-width: 1024px) {
-  /* Images */
-
   /* Text */
+
   .event_text,
   h2,
   h3 {
-    font-size: 22px;
     line-height: 40px;
   }
 
@@ -339,21 +265,14 @@ h3,
   }
 
   .exhibition_text {
-    font-size: 20px;
     line-height: 30px;
   }
 
-  h1 {
-    font-size: 30px;
-  }
   /* Buttons */
   .button {
-    font-size: 20px;
     padding: 15px 20px;
     margin-top: 30px;
   }
-
-  /* Exhibitions */
 }
 
 @media screen and (min-width: 1280px) {
@@ -361,13 +280,11 @@ h3,
     margin-top: 30px;
   }
 
-  /* Images */
-
   /* Text */
+
   .event_text,
   h2,
   h3 {
-    font-size: 24px;
     line-height: 40px;
   }
 
@@ -377,18 +294,11 @@ h3,
     margin-right: 15px;
   }
 
-  h1 {
-    font-size: 32px;
-  }
-
   /* Buttons */
   .button {
-    font-size: 22px;
     margin-top: 30px;
     padding: 20px 25px;
   }
-
-  /* Exhibitions */
 }
 
 @media screen and (min-width: 1440px) {
@@ -408,26 +318,13 @@ h3,
   /* Text */
   .event_text,
   h2 {
-    font-size: 26px;
     line-height: 50px;
-  }
-
-  h1 {
-    font-size: 36px;
   }
 
   .review_text {
     font-size: 22px;
   }
-
-  .review_name_age {
-    font-size: 20px;
-  }
-
-  /* Buttons */
 }
-
-/* Exhibitions */
 
 @media screen and (min-width: 1680px) {
   .maincontainer_event {
@@ -459,13 +356,7 @@ h3,
     padding: 5px 25px;
   }
 
-  h2,
-  .event_text_total {
-    font-size: 30px;
-  }
-
   .exhibition_text {
-    font-size: 24px;
     line-height: 40px;
   }
 
@@ -474,17 +365,5 @@ h3,
   .exhibition_text {
     margin-left: 120px;
     margin-right: 120px;
-  }
-
-  h1 {
-    font-size: 42px;
-  }
-
-  .review_text {
-    font-size: 24px;
-  }
-
-  .review_name_age {
-    font-size: 22px;
   }
 }

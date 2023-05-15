@@ -56,6 +56,25 @@ img {
   height: 0.7px;
   margin: auto;
 }
+/*Text*/
+
+h1 {
+  font-size: 25px;
+}
+
+h2,
+h3,
+.medium {
+  font-size: 18px;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.xsmall {
+  font-size: 14px;
+}
 
 /* Slideshows -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -109,4 +128,169 @@ img {
 .cosmology,
 .robotics_and_ai {
   max-width: 500px;
+}
+
+@media screen and (min-width: 480px) {
+  /* Font sizes */
+
+  .button,
+  .small {
+    font-size: 18px;
+  }
+
+  .xsmall {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  /* Font sizes */
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2,
+  h3,
+  .medium {
+    font-size: 22px;
+  }
+
+  .small {
+    font-size: 20px;
+  }
+
+  .xsmall {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* Font sizes */
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .small {
+    font-size: 16px;
+  }
+
+  .xsmall {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Font sizes */
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2,
+  .medium {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  /* Font sizes */
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2,
+  h3,
+  .medium {
+    font-size: 20px;
+  }
+
+  .small {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Font sizes */
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  h3,
+  .medium {
+    font-size: 22px;
+  }
+
+  .button,
+  .small {
+    font-size: 20px;
+  }
+
+  .xsmall {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* Text */
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2,
+  h3,
+  .medium {
+    font-size: 24px;
+  }
+
+  .button {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* Text */
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2,
+  .medium {
+    font-size: 26px;
+  }
+
+  .xsmall {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1690px) {
+  /* Text */
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h2,
+  .medium {
+    font-size: 30px;
+  }
+
+  .small {
+    font-size: 24px;
+  }
 }
