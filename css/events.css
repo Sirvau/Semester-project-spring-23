@@ -31,6 +31,13 @@ h2,
   padding-bottom: 20px;
 }
 
+.events_top_image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 span {
   font-weight: bold;
 }
@@ -115,6 +122,12 @@ span {
   h2 {
     font-size: 26px;
   }
+
+  .dinosaurevent,
+  .spacetrip {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -125,6 +138,11 @@ span {
   h2 {
     font-size: 28px;
   }
+  .dinosaurevent,
+  .spacetrip {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
 }
 
 @media screen and (min-width: 1690px) {
@@ -134,5 +152,24 @@ span {
   }
   h2 {
     font-size: 32px;
+  }
+
+  .dinosaurevent,
+  .spacetrip {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  .youngstarsclub {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .youngstar {
+    margin-left: 230px;
+  }
+
+  .image_young_stars_club {
+    margin-right: 200px;
   }
 }
