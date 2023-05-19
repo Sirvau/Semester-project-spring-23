@@ -1,0 +1,161 @@
+/* Text-------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+  line-height: 25px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  margin: auto 30px 25px;
+}
+
+/* Slideshows -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.slideshow {
+  overflow: hidden;
+}
+.slideshow figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slideshow infinite;
+}
+
+.slideshow figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slideshow {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.maincontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: auto;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  max-width: 100%;
+}
+
+.images img {
+  height: 400px;
+  max-width: 100%;
+  transition: all 0.15s ease;
+}
+
+input {
+  display: none;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid 3px rgba(250, 228, 209, 1);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+
+.dots label:hover {
+  background: rgba(250, 228, 209, 1);
+}
+
+/*Evolution*/
+#evo1:checked ~ .e1 {
+  margin-left: 0;
+}
+#evo2:checked ~ .e2 {
+  margin-left: -100%;
+}
+#evo3:checked ~ .e3 {
+  margin-left: -200%;
+}
+#evo4:checked ~ .e4 {
+  margin-left: -300%;
+}
+#evo5:checked ~ .e5 {
+  margin-left: -400%;
+}
+
+/*Cosmology*/
+
+#cos1:checked ~ .c1 {
+  margin-left: 0;
+}
+#cos2:checked ~ .c2 {
+  margin-left: -100%;
+}
+#cos3:checked ~ .c3 {
+  margin-left: -200%;
+}
+#cos4:checked ~ .c4 {
+  margin-left: -300%;
+}
+#cos5:checked ~ .c5 {
+  margin-left: -400%;
+}
+
+/*Robotics and AI*/
+#rob1:checked ~ .r1 {
+  margin-left: 0;
+}
+#rob2:checked ~ .r2 {
+  margin-left: -100%;
+}
+#rob3:checked ~ .r3 {
+  margin-left: -200%;
+}
+#rob4:checked ~ .r4 {
+  margin-left: -300%;
+}
+#rob5:checked ~ .r5 {
+  margin-left: -400%;
+}
