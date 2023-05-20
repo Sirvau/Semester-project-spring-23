@@ -46,11 +46,6 @@ nav a {
   );
 }
 
-.fa-bars {
-  margin-left: 15px;
-  padding: 5px;
-}
-
 nav {
   margin: 35px auto;
   padding: 10px;
@@ -91,6 +86,15 @@ nav {
 
 #menu_checkbox:checked ~ nav {
   display: block;
+}
+
+#label_hidden {
+  display: none;
+}
+
+.fa-bars {
+  margin-left: 15px;
+  padding: 5px;
 }
 
 @media screen and (min-width: 440px) {
