@@ -15,8 +15,9 @@ p {
 }
 
 h1 {
-  margin-top: 125px;
+  margin-top: 180px;
 }
+
 .horisontal_line {
   margin: 30px 0px;
 }
@@ -27,42 +28,6 @@ h1 {
 }
 
 /* Slideshows -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.slideshow {
-  overflow: hidden;
-}
-.slideshow figure {
-  position: relative;
-  width: 500%;
-  margin: 0px;
-  left: 0;
-  animation: 20s slideshow infinite;
-}
-
-.slideshow figure img {
-  width: 20%;
-  float: left;
-}
-
-@keyframes slideshow {
-  0% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -219,6 +184,14 @@ input {
   #search {
     display: inline-block;
   }
+
+  .medium {
+    font-size: 20px;
+  }
+
+  .small {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 880px) {
   .slider {
@@ -227,7 +200,7 @@ input {
 }
 @media screen and (min-width: 1024px) {
   .slideshow {
-    max-width: 90%;
+    max-width: 95%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -235,6 +208,7 @@ input {
 
   .slider {
     max-width: 75%;
+    margin-left: 1px;
   }
 
   .small {
@@ -252,6 +226,16 @@ input {
 
   .evolution {
     margin-left: 0px;
+  }
+
+  .medium {
+    font-size: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .small {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -271,11 +255,25 @@ input {
     font-size: 26px;
   }
 
+  .medium {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
   .small {
     font-size: 24px;
+    margin-left: auto;
+  }
+
+  .discription {
+    margin: auto 100px auto 0px;
   }
 }
 @media screen and (min-width: 1690px) {
+  .horisontal_line {
+    display: none;
+  }
+
   .slider {
     max-width: 47%;
   }
@@ -288,8 +286,8 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-right: 250px;
   }
-
   .small {
     line-height: 40px;
     font-size: 24px;
@@ -309,8 +307,14 @@ input {
     line-height: 50px;
   }
 
-  .gallery_content {
-    margin-right: 250px;
+  .evolution,
+  .cosmology,
+  .robotics_and_ai {
+    border-top: 1px solid rgba(184, 125, 17, 1);
+  }
+  .discription,
+  .slider {
+    margin-top: 50px;
   }
 }
 

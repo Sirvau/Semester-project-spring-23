@@ -86,6 +86,49 @@ h3,
   text-align: center;
 }
 
+.small,
+.medium {
+  letter-spacing: 0.3px;
+}
+
+/*Slideshows*/
+.slideshow {
+  overflow: hidden;
+}
+.slideshow figure {
+  position: relative;
+  width: 500%;
+  margin: 0px;
+  left: 0;
+  animation: 20s slideshow infinite;
+}
+
+.slideshow figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slideshow {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+}
+
 @media screen and (min-width: 480px) {
   /* Font sizes */
 
