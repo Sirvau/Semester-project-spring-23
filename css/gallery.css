@@ -14,6 +14,9 @@ p {
   margin: auto 30px 25px;
 }
 
+h1 {
+  margin-top: 125px;
+}
 .horisontal_line {
   margin: 30px 0px;
 }
@@ -30,7 +33,7 @@ p {
 .slideshow figure {
   position: relative;
   width: 500%;
-  margin: 0;
+  margin: 0px;
   left: 0;
   animation: 20s slideshow infinite;
 }

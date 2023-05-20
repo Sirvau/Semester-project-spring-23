@@ -47,7 +47,8 @@ nav a {
 }
 
 .fa-bars {
-  margin-left: 5px;
+  margin-left: 15px;
+  padding: 5px;
 }
 
 nav {
@@ -107,10 +108,6 @@ nav {
   }
   .museum_name {
     font-size: 25px;
-  }
-
-  .fa-bars {
-    margin-left: 5px;
   }
 }
 
