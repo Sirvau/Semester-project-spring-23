@@ -97,6 +97,12 @@ nav {
   padding: 5px;
 }
 
+/*Hidden labels*/
+
+span {
+  display: none;
+}
+
 @media screen and (min-width: 440px) {
   .museum_name {
     font-size: 23px;
