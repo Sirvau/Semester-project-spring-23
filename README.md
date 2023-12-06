@@ -1,6 +1,6 @@
 # Semester-project-spring-23
 
-![image](../Semester-project-spring-23/images/Skjermbilde%202023-12-05%20215247.png)
+![image](../images/Skjermbilde%202023-12-05%20215247.png)
 
 The project is a website for a local interactive science museum.
 
@@ -21,7 +21,7 @@ Technical aspects of the website:
 
 - [HTML5](https://html.spec.whatwg.org/multipage/)
 - [CSS 3](https://www.w3.org/Style/CSS/Overview.en.html)
-- [JavaScript] (https://www.javascript.com/)
+- [JavaScript](https://www.javascript.com/)
 
 ## Getting Started
 
