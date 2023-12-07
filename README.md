@@ -1,10 +1,12 @@
 # Semester-project-spring-23
 
-![image](../images/Skjermbilde%202023-12-05%20215247.png)
+![image](https://github.com/[Sirvau]/[Semester-project-spring-23]/blob/[main]/[Skjermbilde 2023-12-05 215247.png?raw=true])
 
 The project is a website for a local interactive science museum.
 
 ## Description
+
+This is a website built up by HTML, CSS and Vanilla JavaScript, and made responsive using media queries.
 
 The content of the website is going to:
 
@@ -23,17 +25,18 @@ Technical aspects of the website:
 - [CSS 3](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JavaScript](https://www.javascript.com/)
 
-## Getting Started
-
 ### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 
 ```bash
 git clone git@github.com:Sirvau/Semester-project-spring-23.git
 ```
+
+## Running
+
+Use Live Server as a VS code extention.
+Run the site by clicking the run server button, and it will open in your browser.
 
 ## Contributing
 
