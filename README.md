@@ -1,6 +1,6 @@
 # Semester-project-spring-23
 
-![alt text](https://github.com/[Sirvau]/[Semester-project-spring-23]/blob/[main]/Skjermbilde 2023-12-05 215247.png?raw=true)
+![Alt text](<Skjermbilde 2023-12-05 215247-1.png>)
 
 The project is a website for a local interactive science museum.
 
